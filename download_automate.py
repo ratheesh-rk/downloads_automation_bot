@@ -6,14 +6,14 @@ import logging
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Directories
-source_dir = "C:/Users/rathe/Downloads"
-dest_dir_sfx = "D:/Downloads/sfx"
-dest_dir_music = "D:/Downloads/audios"
-dest_dir_video = "D:/Downloads/videos"
-dest_dir_image = "D:/Downloads/Images"
-dest_dir_documents = "D:/Downloads/Documents"
-dest_dir_work_files = "D:/Downloads/work files"
+# Directories add your directories locations
+source_dir = ""
+dest_dir_sfx = ""
+dest_dir_music = ""
+dest_dir_video = ""
+dest_dir_image = ""
+dest_dir_documents = ""
+dest_dir_work_files = ""
 
 # Supported file types
 image_extensions = [".jpg", ".jpeg", ".jpe", ".jif", ".jfif", ".jfi", ".png", ".gif", ".webp", ".tiff", ".tif", ".psd", ".raw", ".arw", ".cr2", ".nrw", ".k25", ".bmp", ".dib", ".heif", ".heic", ".ind", ".indd", ".indt", ".jp2", ".j2k", ".jpf", ".jpf", ".jpx", ".jpm", ".mj2", ".svg", ".svgz", ".ai", ".eps", ".ico"]
